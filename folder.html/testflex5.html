@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+         *{
+           margin:0;
+           padding:0;
+           box-sizing:border-box;
+         }
+         body{
+           display:flex;
+
+         }
+
+         .main{
+
+           display:flex;
+           flex-direction:column;
+           background-color:smokegrey;
+           min-height:10vh;
+           width:100%;
+           padding:.5em;
+
+        }
+        .flex-contener{
+          display:flex;
+          flex-direction:column;
+          padding:.5em;
+
+        }
+        .content{
+          display:flex;
+          flex-direction:column;
+          padding:.5em;
+        }
+        .content1{
+          display:flex;
+          flex-direction:row;
+          padding:.5em;
+        }
+        .content2{
+          display:flex;
+          flex-direction:row;
+          padding:.5em;
+        }
+        .content3{
+          display:flex;
+          flex-direction:row;
+          padding:.5em;
+        }
+        .content4{
+          display:flex;
+          flex-direction:row;
+          padding:.5em;
+        }
+        .content5{
+          display:flex;
+          flex-direction:row;
+          padding:.5em;
+        }
+        .content6{
+          display:flex;
+          flex-direction:row;
+          padding:.5em;
+        }
+        .content7{
+          display:flex;
+          flex-direction:row;
+          padding:.5em;
+
+        }
+      input{
+        display:flex;
+         flex:1;
+         margin:2px;
+         padding:0.5em;
+       }
+      label{
+        flex:1;
+        justify-content:space-around;
+
+      }
+
+      input,select{
+        flex:1;
+        justify-content:flex-start;
+      }
+      .sel{
+
+
+      }
+      button{
+        padding:1em;
+        background:blue;
+        color:white;
+        border:none;
+        border-radius:5vh;
+      }
+
+    </style>
+  </head>
+  <body>
+     <div class="main">
+       <form class="flex-contener" action="index.html" method="post">
+         <center>
+         <h1>Vision English High School</h1>
+           <h3>Admission Form</h3><br>
+           </center>
+           <h3 style="background-color:grey;color:white;padding:.5em;margin-left:8px;">1.Student Details</h3>
+           <br>
+        <div class="content">
+          <label>Full name for the student</label>
+          <input type="text"placeholder="Full name">
+        </div>
+
+        <div class="content1">
+          <label>Date of Birth</label> <label>Place of Birth</label> <label>Nationality</label></div>
+          <div class="content1">
+          <input type="text"placeholder="11-1-1998">
+          <input type="text"placeholder="Mumbai">
+          <input type="text"placeholder="Indian"></div>
+         <div class="content1">
+          <label>Mother Tongue</label> <label>Religion</label> <label>Cast</label></div>
+          <div class="content1">
+          <input type="text"placeholder="Hindi">
+          <input type="text"placeholder="Hindu">
+          <input type="text"placeholder="Brahmin">
+        </div>
+
+        <div class="content">
+          <label>Address</label>
+          <input type="text"placeholder="123Main st.">
+          <label>Address1</label>
+          <input type="text"placeholder="123Main st.">
+        </div>
+
+          <div class="content2">
+            <label>City</label> <label>State</label> <label>Zip</label></div>
+            <div class="content2">
+            <input type="text"placeholder="Mumbai">
+            <select class="sel">
+              <option>Choose...</option>
+             <option>Maharashtra</option>
+             <option>Gujrat</option>
+             <option>Kolkata</option>
+             <option>Delhi</option>
+            </select>
+            <input type="text"placeholder="400070">
+            </div>
+
+            <div class="content3">
+              <label>Addmision in Std:</label> <label>Reference with:</label></div>
+              <div class="content3">
+              <select>
+              <option>Choose...</option>
+             <option>7th</option>
+             <option>8th</option>
+             <option>9th</option>
+             <option>10th</option>
+            </select>
+
+            <select>
+            <option>Choose...</option>
+           <option>7th</option>
+           <option>8th</option>
+           <option>9th</option>
+           <option>10th</option>
+          </select>
+         </div>
+
+         <div class="content1">
+           <label>Adhaar Card Number</label> <label>Contact Number</label> <label>Contact Number2</label></div>
+           <div class="content1">
+           <input type="text"placeholder="2552 2552 2552">
+           <input type="text"placeholder="88888888">
+           <input type="text"placeholder="88888888">
+           </div>
+
+           <h3 style="background-color:grey;color:white;padding:.5em;margin-left:8px;">2.School Attended</h3>
+
+           <div class="content4">
+             <label>School Name</label> <label>year</label> <label>Class</label> <label>Remark:</label></div>
+             <div class="content4">
+             <input type="text"placeholder="school name">
+             <input type="text"placeholder="year">
+             <input type="text"placeholder="class">
+             <input type="text"placeholder="pass">
+             </div>
+
+             <h3 style="background-color:grey;color:white;padding:.5em;margin-left:8px;">3.Parents/Guardian details</h3>
+
+             <div class="content5">
+               <label>Mother name </label> <label>Father name</label></div>
+               <div class="content5">
+               <input type="text"placeholder="Mother name">
+               <input type="text"placeholder="Father name">
+             </div>
+
+               <div class="content">
+                 <label>Parmanent Address</label>
+                 <input type="text"placeholder="123Main st.">
+                 <label>Address1</label>
+                 <input type="text"placeholder="123Main st.">
+               </div>
+               <br>
+               <div class="content2">
+                 <label>City</label> <label>State</label> <label>Zip</label></div>
+                 <div class="content2">
+                 <input type="text"placeholder="Mumbai">
+                 <select>
+                   <option>Choose...</option>
+                  <option>Maharashtra</option>
+                  <option>Gujrat</option>
+                  <option>Kolkata</option>
+                  <option>Delhi</option>
+                 </select>
+                 <input type="text"placeholder="400070">
+                 </div>
+
+                 <div class="content5">
+                   <label>Mother ocupation </label> <label>Father ocupation</label></div>
+                   <div class="content5">
+                   <input type="text"placeholder="House wife">
+                   <input type="text"placeholder="Father name">
+                   </div>
+                   <div class="content5">
+                   <label>Mother income </label> <label>Father income</label></div>
+                   <div class="content5">
+                   <input type="text"placeholder="000000">
+                   <input type="text"placeholder="000000">
+                   </div>
+                   <div class="content5">
+                   <label>Mother contact </label> <label>Father contact</label></div>
+                   <div class="content5">
+                   <input type="text"placeholder="000000">
+                   <input type="text"placeholder="000000">
+                 </div>
+
+                  <div class="content6">
+                   <label>Student photo </label>
+                   <input type="button"value="Browse"><label>mother photo</label> <input type="button"value="Browse"><label>Father photo </label><input type="button"value="Browse">
+                  </div>
+                  <br>
+                  <div class=content7>
+                    <label>Gr.No</label> <label>Udies No</label> <label>Box File No</label> <label>Last School No: </label></div>
+                    <div class="content5">
+                    <input type="text"placeholder="GR NO:19845">
+                    <input type="text"placeholder="1234567">
+                    <input type="text"placeholder="2019-20-5">
+                    <input type="text"placeholder="88888888">
+                  </div>
+                  <button type="submit"value="Confirm Admission">Submit Admission</button>
+
+       </form>
+       </div>
+  </body>
+</html>

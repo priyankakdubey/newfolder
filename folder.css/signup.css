@@ -1,0 +1,11 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+.main{
+  background-color: black;
+  width:500px;
+  height: 700px;
+  margin-left: 400px;
+  padding-left: 30px;
+}

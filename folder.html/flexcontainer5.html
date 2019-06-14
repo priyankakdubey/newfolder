@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      margin: 0;
+    }
+    .content{
+      display:flex;
+      flex:1;
+    }
+    header,footer{
+      background:red;
+      flex:1;
+      font-size:1.2em;
+    }
+
+    article{
+      background:blue;
+      flex:1;
+    }
+
+    aside{
+      background:pink;
+      flex:2;
+    }
+    section{
+      background:white;
+      flex:1;
+    }
+
+</style>
+  </head>
+  <body>
+    <header>Header</header>
+
+   <article>Article</article>
+   <section></section>
+   <div class="content">
+   <nav>Nav</nav>
+   <aside>Aside</aside>
+   <section></section>
+ </div>
+ <footer>Footer</footer>
+  </body>
+</html>

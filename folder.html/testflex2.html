@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .col-3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .col-4 {
+    flex: 4;
+  }
+  .col-3 article {
+    min-height: 60vh;
+  }
+  .col-3 aside {
+    background: red;
+    flex: 1;
+
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+    </style>
+  <body>
+    <div class="col-1">Nav</div>
+      <div class="col-2">
+      	<header>Header</header>
+        <div class="col-3">
+          <div class="col-4">
+        	<article>Article</article>
+      		<footer>Footer</footer>
+          </div>
+        	<aside>Aside</aside>
+        </div>
+      </div>
+      </body>
+      </html>

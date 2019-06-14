@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+       *{
+         margin:0;
+         padding:0;
+         box-sizing:border-box;
+       }
+      body{
+        display:flex;
+        flex-direction:column;
+        min-height:10hv;
+      }
+      .container{
+        display:flex;
+        flex-direction:row;
+        font-size:5vw;
+        padding:.5em;
+        color:white;
+        flex:1;
+      }
+      .col{
+        display:flex;
+        flex-direction:column;
+        flex:;
+
+        background-color:seagreen;
+      }
+      .col_row{
+        background-color:red;
+      }
+      .col_row1{
+        background-color:blue;
+      }
+      .col1{
+        display:flex;
+        background-color:red;
+        flex-direction:column;
+
+
+      }
+      .col2{
+        display:flex;
+        background-color:blue;
+        flex-direction:column;
+
+      }
+      .container > div {
+        flex:1;
+        padding:0.5em;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="col">1
+       <div class="col_row">1a</div>
+       <div class="col_row1">1b</div>
+    </div>
+
+    <div class="col1">2</div>
+    <div class="col2">3</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+         *{
+           margin:0;
+           padding:0;
+           box-sizing:border-box;
+         }
+        body{
+          display:flex;
+          flex-direction:column;
+          min-height:10vh;
+        }
+        .col{
+          display:flex;
+          flex-direction:row;
+        }
+        .col >logo{
+          background-color:skyblue;
+          width:30%;
+          height:20vh;
+        }
+        .col >header{
+          background-color:seagreen;
+          width:70%;
+          height:20vh;
+        }
+        nav{
+          background-color:pink;
+          height:30vh;
+        }
+        .col1{
+          display:flex;
+          flex-direction:row;
+       }
+       .col1 >artical{
+         background-color:purple;
+         width:50%;
+         height:30vh;
+       }
+       .col1 >aside{
+         background-color:grey;
+         width:50%;
+         height:30vh;
+       }
+       .col2{
+         display:flex;
+         flex-direction:row;
+       }
+       .col2 >logo{
+         background-color:red;
+         width:33.3333%;
+         height:20vh;
+       }
+       .col2 >footer{
+         background-color:blue;
+         width:33.3333%;
+         height:20vh;
+       }
+       .col2 >share{
+         background-color:green;
+         width:33.3333%;
+         height:20vh;
+       }
+       logo, header, nav, article, aside, footer, share{
+         border: .5vh solid darkseagreen;
+       }
+    </style>
+  </head>
+  <body>
+  <div class="col">
+    <logo>Logo</logo>
+    <header>Header</header>
+</div>
+   <nav>Nav</nav>
+    <div class="col1">
+       <artical>Artical</artical>
+       <aside>Aside</aside>
+    </div>
+     <div class=col2>
+       <logo>Logo</logo>
+      <footer>Footer</footer>
+      <share>Share</share>
+
+       </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sec{
+  height: 400px;
+  width: 50%;
+  background-color: red;
+}
+.aside{
+  float: right;;
+  margin-top: -400px;
+  height: 400px;
+  width: 50%;
+  background-color: black;
+}
+.col{
+   font-size: 1.5em;
+
+}
+.head1{
+  margin-top:50px;
+  margin-left: 210px;
+}
+.sec1{
+  height: 100px;
+  width: 20%;
+  background-color: lightblue;
+  margin-left: 70px;
+  margin-top:50px;
+}
+.sec2{
+    height: 100px;
+    width: 20%;
+    background-color: lightblue;
+    margin-left: 390px;
+    margin-top:-100px;
+}
+.sec3{
+    height: 100px;
+    width: 20%;
+    background-color: lightblue;
+    margin-left: 690px;
+    margin-top:-100px
+}
+.sec4{
+    height: 100px;
+    width: 20%;
+    background-color: lightblue;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  .sec5{
+      height: 100px;
+      width: 20%;
+      background-color: lightblue;
+      margin-left: 390px;
+      margin-top: -100px;
+    }
+    .sec6{
+        height: 100px;
+        width: 20%;
+        background-color: lightblue;
+        margin-left: 690px;
+        margin-top: -100px;
+      }
+      .sec7{
+        height: 400px;
+        width: 50%;
+        background-color: red;
+        margin-top: 90px;
+      }
+      .aside1{
+        float: right;;
+        margin-top: -400px;
+        height: 400px;
+        width: 50%;
+        background-color: black;
+      }
+      .sec8{
+        height: 400px;
+        width: 50%;
+        background-color: red;
+        margin-top: 90px;
+      }
+      .aside2{
+        float: right;;
+        margin-top: -400px;
+        height: 400px;
+        width: 50%;
+        background-color: black;
+      }
+      .col1{
+        margin-left: 90px;
+        width: 250px;
+        margin-top: 30px;
+      }
+      .col2{
+        margin-left: 380px;
+        margin-top:-130px;
+        width:250px;
+
+      }
+      .col3{
+        margin-left: 700px;
+        margin-top:-130px;
+        width:250px;
+      }
+      footer{
+        background-color: yellow;
+        width: 1000px;
+        text-align: center;
+        margin-top: 20px;
+      }

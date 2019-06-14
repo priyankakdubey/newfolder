@@ -1,0 +1,70 @@
+*{
+  margin:auto;
+  padding:0px;
+}
+.main{
+   margin-left:180px;
+   padding:20px;
+   font-size:1.5em;
+}
+
+.bigbox{
+    margin-left: 400px;
+    margin-top: -190px;
+    width:340px;
+    background-color: #154360;
+    border:0px;
+
+}
+.section{
+  background-image: url("/home/pif/Desktop/project/30220856554_5686db02aa_h.jpg");
+  background-repeat: no-repeat;
+  width: 1100px;
+  height:420px;
+  margin-top: 50px;
+  overflow:hidden;
+  color:white;
+}
+.as{
+  width:300px;
+  height:330px;
+  background-color:#000080;
+  margin-left:850px;
+  margin-top: -315px;
+  padding-top: 20px;
+  text-align: center;
+  color:white;
+}
+.st{
+  width:120px;
+  height:35px;
+  margin-top:5px;
+  margin-right: 132px;
+}
+
+.head1{
+  margin-left: 10px;
+  margin-top: 90px;
+}
+.sec1{
+  float:left;
+  color:#000080;
+  height:70px;
+  width:180px;
+  margin-left:170px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  border:0.5px solid #d9d9d9;
+  margin-top:30px;
+}
+.sec3{
+  height: 380px;
+  width: 84%;
+  background-color: red;
+  margin-top: 250px;
+}
+.sec4{
+  color:black;
+  margin-left:300px;

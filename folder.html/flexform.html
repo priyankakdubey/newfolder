@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .main{
+          display:flex;
+          flex-direction:column;
+          min-height: 10vh;
+          background-color: mediumseagreen;
+
+
+        }
+        input{
+          display: flex;
+          flex-direction:column;
+          width: 20vw;
+          margin-left: 10px;
+          height: 5vh;
+        }
+
+        select{
+          display: flex;
+            flex-direction:column;
+          width:20vw;
+            height: 5vh;
+            margin-left: 10px;
+        }
+
+
+    </style>
+  </head>
+  <body>
+     <div class="main">
+       <form class="content">
+         <label >Full Name for the student:</label><br><br>
+         <input type="text" placeholder="Priyanka dubey"><br><br>
+
+         <label>Address:</label><br>
+         <input type="text" placeholder="1234 main st"><br><br>
+
+         <label>Address2:</label><br><br>
+         <input type="text" placeholder="Apartment,studio or Floor"><br><br>
+
+         <label style="margin-top:-20px;"">Contact Number:</lable> <label style="margin-left:170px;margin-top:-20px;">Contact Number2:</label><br><br>
+         <input type="number" placeholder="88888888">
+         <input   style="margin-left:280px;margin-top:-33px;"type="number" placeholder="88888888"><br><br>
+
+         <label style="margin-top:-30px;">City:</lable><label style="margin-left:250px;margin-top:-30px;">State:</label><label style="margin-left:245px;margin-top:-30px;">Zip:</label><br><br>
+         <input style="margin-top:-0.5px;" type="number" placeholder="Mumbai">
+         <select style="margin-left:280px;margin-top:-33px;"type="text">
+           <option>Choose...</option>
+          <option>Maharashtra</option>
+          <option>Gujrat</option>
+          <option>Kolkata</option>
+          <option>Delhi</option>
+         </select>
+
+         <input style="margin-left:560px;margin-top:-35px;"type="number" placeholder="400070"><br><br>
+
+         <label>Admission in Std:</lable> <label style="margin-left:163px;margin-top:10px;">Reference with:</label><br><br>
+         <select style="margin-left:10px;margin-top:20px;"type="number" placeholder="Choose...">
+         <option class="opt1">Choose...</option>
+        <option>7th</option>
+        <option>8th</option>
+        <option>9th</option>
+        <option>10th</option>
+       </select>
+
+         <select style="margin-left:280px;margin-top:-34px;"type="number" placeholder="Choose...">
+           <option>Choose...</option>
+          <option>Student</option>
+          <option>Parents</option>
+          <option>Staff</option>
+          <option>Others</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit Enquiry" style="border:none;background-color:grey;color:white;margin-top:20px;border-radius:1em;text-indent:70px;">
+       </form>
+      </div>
+     </div>
+       </form>
+     </div>
+  </body>
+</html>

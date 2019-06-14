@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  <style>
+     body {
+       display:flex;
+       min-height:100vh;
+       font-size:1.5em;
+       flex-direction:row;
+       margin:0;
+       text-align:center;
+     }
+     .col1 {
+       background:blue;
+       flex: 1;
+      }
+      .col2 {
+        background:pink;
+        flex-direction:column;
+        flex:5;
+      }
+
+       .contain {
+          display:flex;
+          flex-direction:row;
+        }
+        .content > artical{
+          background:green;
+          min-height:60vh;
+          flex:3;
+        }
+        .content > aside{
+          background:red;
+          flex:1;
+        }
+        header, footer{
+          background:yellowgreen;
+          height:20vh;
+        }
+
+  </style>
+    </head>
+  <body>
+    <div class="col1">nav</div>
+    <div class="col2">header</div>
+    <main class="contain">
+     <artical>Artical<artical>
+      <aside>Aside</aside>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>
